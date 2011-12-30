@@ -1,0 +1,40 @@
+body{
+    position: relative;
+}
+
+#navigation{
+    list-style: none;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right:330px;
+}
+
+#navigation li{
+    float: left;
+}
+
+.play-random-link, .navigation-link{
+    display: block;
+    margin-right: 50px;
+    padding: 5px;
+    border: 1px dashed black;
+    width: 150px;
+    background: #009900;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.play-random-link:hover, .navigation-link:hover{
+    background: #00cc00;
+}
+
+.play-random-link{
+    position: absolute;
+    bottom: 250px;
+    right:400px;
+}
